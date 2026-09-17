@@ -6,8 +6,10 @@ namespace InventoryMaintenance
 {
     public class InvItem
     {
-        public InvItem() { } 
+        //Jonathan Douglas
+        public InvItem() { }
 
+        //Jonathan Douglas
         public InvItem(int itemNo, string description, decimal price)
         {
             ItemNo = itemNo;
@@ -19,6 +21,8 @@ namespace InventoryMaintenance
         public string Description { get; set; }
         public decimal Price { get; set; }
 
+
+        // Jonathan Douglas
         public virtual string GetDisplayText() => $"{ItemNo}    {Description} ({Price:c})";
     }
 }
