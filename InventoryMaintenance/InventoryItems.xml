@@ -28,4 +28,18 @@
         <Price>89.95</Price>
         <Size>15 gallon</Size>
     </Item>
+    <Item>
+        <Type>Supply</Type>
+        <ItemNo>9210585</ItemNo>
+        <Description>Ortho Snail Balls</Description>
+        <Price>15.30</Price>
+        <Manufacturer>Ortho</Manufacturer>
+    </Item>
+    <Item>
+        <Type>Plant</Type>
+        <ItemNo>3762593</ItemNo>
+        <Description>Limonium</Description>
+        <Price>30</Price>
+        <Size>5 gallon</Size>
+    </Item>
 </Items>

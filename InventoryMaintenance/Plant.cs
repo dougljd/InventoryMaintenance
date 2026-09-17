@@ -8,7 +8,7 @@ namespace InventoryMaintenance
 {
     public class Plant : InvItem
     {
-        Plant() { }
+        public Plant() { }
 
         public Plant(int itemNo, string description, decimal price, string size): base(itemNo, description, price)
         {
